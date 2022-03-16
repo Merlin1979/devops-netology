@@ -35,10 +35,19 @@
    ![Screenshot02](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.3/Screenshot02.png)
    ![Screenshot03](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.3/Screenshot03.png)
    ![Screenshot04](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.3/Screenshot04.png)
-
+   
+   Альтернативный вариант, если файл был открыт для добавления (O_APPEND):  
+   ```
+   ping localhost >> log &
+   rm log
+   sudo lsof -p 1502
+   sudo truncate -s 0 /proc/1502/fd/1
+   sudo lsof -p 1502
+   ```
+   В случае, если файл открыт через O_CREAT (`>`), использование `truncate` не приведет к желаемому результату.
 4. Ресурсов зомби процессы не занимают, но занимают место в списке процессов и могут помешать запустить новый процесс при приближении к лимиту на количество запущенных процессов для пользователя.
 
-5. ```
+5.  ```
    vagrant@vagrant:~$ sudo opensnoop-bpfcc
    PID    COMM               FD ERR PATH
    857    vminfo              4   0 /var/run/utmp
