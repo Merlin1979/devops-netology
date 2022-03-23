@@ -1,6 +1,6 @@
 # Домашняя работа к занятию "3.4. Операционные системы, лекция 2"
 
-1. предусмотрите возможность добавления опций к запускаемому процессу через внешний файл (посмотрите, например, на `systemctl cat cron`),
+1. Установка и настройка службы `node_exporter`:
    ```
    wget https://github.com/prometheus/node_exporter/releases/download/v1.3.1/node_exporter-1.3.1.linux-amd64.tar.gz
    tar xvf node_exporter-1.3.1.linux-amd64.tar.gz
@@ -17,8 +17,8 @@
    ```
    ![Screenshot01](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.4/Screenshot01.png)
 2. Посмотреть опции: `node_exporter --help`  
-   Метрики: `curl http://localhost:9100/metrics`
-   Для базового мониторинга я бы выбрал следующие метрики (соответствующие коллекторы включены по умолчанию):
+   Метрики: `curl http://localhost:9100/metrics`  
+   Для базового мониторинга я бы выбрал следующие метрики (соответствующие коллекторы включены по умолчанию):  
    **node_disk_io_now** — The number of I/Os currently in progress;
    **node_filesystem_free_bytes** — Filesystem free space in bytes;
    **node_filesystem_size_bytes** — Filesystem size in bytes;
