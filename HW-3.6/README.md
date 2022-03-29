@@ -68,7 +68,7 @@
    
    % This query was served by the RIPE Database Query Service version 1.102.2 (HEREFORD)
    ```
-5. Пакет до `8.8.8.8` про ходит чере следующие автономные системы: AS12668 (KOMTEHCENTR), AS8359 (MTS), AS15169 (Google).  
+5. Пакет до `8.8.8.8` проходит через следующие автономные системы: AS12668 (KOMTEHCENTR), AS8359 (MTS), AS15169 (Google).  
    `traceroute -A 8.8.8.8`
    ```
    traceroute to 8.8.8.8 (8.8.8.8), 30 hops max, 60 byte packets
