@@ -225,4 +225,4 @@
     UNCONN       0            0                          0.0.0.0:bootpc                    0.0.0.0:*
     ```
 
-5. Схема домашней сети уровня L3 ![L3-scheme](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.8/L3-scheme.png) 
+5. Схема домашней сети уровня L3 ![L3-scheme](https://github.com/Merlin1979/devops-netology/blob/main/HW-3.8/L3-sheme.png) 
