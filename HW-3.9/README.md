@@ -7,9 +7,8 @@
    ![Screenshot102](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.9/Screenshot102.png)  
    Хотя для бытовых задач вполне достаточно менеджеров паролей, встроенных в современные браузеры.  
 
-
  
-2. В Bitwarden включена двухфакторная аутентификация через Google OTP, к сожалению, Google OTP не позволяет скриншот, но поскриншоту и так видно, что 2FA включена. 
+2. В Bitwarden включена двухфакторная аутентификация через Google OTP, к сожалению, Google OTP не позволяет скриншот, но поскриншоту и так видно, что 2FA включена.  
    ![Screenshot201](https://raw.githubusercontent.com/Merlin1979/devops-netology/main/HW-3.9/Screenshot201.png)
 
 
